@@ -11423,30 +11423,37 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.wpp-flotante{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 79%;
-  right: 1%;
-  width: 80px;
-  height: 80px;
-  background-color: #9E004B;
-  border-radius: 1.5rem;
-  box-shadow: -2px 3px 6px #571e11;
+.wsp{
+  background-color: #2e6329;
+      border:1vh solid white;
+      position: fixed;
+      z-index: 999;
+      border-radius:50%;
+      bottom: 2vh;
+      right: 10vh;
+      padding: 2.5vh;
+      transition: ease 0.3s;
+      width: 2.5vh;
+      animation: efecto 1.2s infinite;
+
 }
-/* Importación de fuentes de google fonts */ 
-.contact_form{  
-  width:700px; 
-  height: auto;
-  margin: 80px auto;
-  border-radius: 10px;  
-  padding-top: 30px;
-  padding-bottom: 20px;  
-  background-color: #fbfbfb; 
-  padding-left: 30px; 
+.wsp{
+    padding: center;
+    width: 10vh;
+    transition: ease 1s;
+
 }
+.wsp:hover{transform: scale(1.1);
+    transition: 0.3s;
+
+}
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);	}
+    100%{
+        box-shadow: 0 0 0 4vh rgba(0, 0, 0, 0);	}
+  }
+
 
 
 input{
