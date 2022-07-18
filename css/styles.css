@@ -11440,8 +11440,8 @@ section#contact form#contactForm :-ms-input-placeholder {
       position: fixed;
       z-index: 999;
       border-radius:50%;
-      bottom: 2vh;
-      right: 10vh;
+      bottom: 10vh;
+      right: 2vh;
       padding: 2.5vh;
       transition: ease 0.3s;
       width: 2.5vh;
